@@ -1,4 +1,5 @@
 -- This file will show some basic examples of tuple
+-- Note that this file can not be compiled correctly, you should test it in GHCi.
 
 ex1 = (3,'a',"hello") -- this means a tuple can be mixed
 :t ex1 -- the result is: ex1:: (Num a) => (a, Char, [Char])
