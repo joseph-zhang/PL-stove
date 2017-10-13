@@ -1,4 +1,5 @@
 -- This file will show some basic examples of list comprehension
+-- Note that this file can not be compiled correctly, you should test it in GHCi.
 
 [x*2 | x <- [1..10]] -- equal to 2 product a list
 [x*2 | x <- [1..10], x*2 >= 12] -- add a predicate
