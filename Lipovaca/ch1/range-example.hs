@@ -1,4 +1,5 @@
 -- This file shows some basic examples of range
+-- Note that this file can not be compiled correctly, you should test it in GHCi.
 
 [1..20]  -- constant value
 ['a'..'z']  -- small letters
