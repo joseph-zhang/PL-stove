@@ -4,7 +4,7 @@ import Data.List
 -- an association list can be expressed as a list of pairs
 phoneBook = [ ("betty", "555-2938")
              ,("bonnie", "452-2928")
-			 ,("pastsy", "493-2928")
+	     ,("pastsy", "493-2928")
             ]
 -- simple process to indexing, this is included in Data.List, named "lookup"
 findKey :: (Eq key) => key -> [(key, val)] -> val
