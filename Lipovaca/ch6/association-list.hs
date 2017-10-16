@@ -15,7 +15,7 @@ findKey' :: (Eq key) => key -> [(key, val)] -> Maybe val
 findKey' key [] = Nothing
 findKey' key ((k, v):xs)  
     | key == k = Just v 
-    | otherwise = findKey' key xs -- a 
+    | otherwise = findKey' key xs 
 
 -- map can also represent a kind of structure, it is more efficient than association list
 -- we can use fromList to construct a map, input is an association list
