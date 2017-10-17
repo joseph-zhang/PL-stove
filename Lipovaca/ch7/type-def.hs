@@ -7,7 +7,7 @@ data Shape = Circle Float Float Float | Rectangle Float Float Float deriving (Sh
 {- 
   Note that value-constructor is also function.
     >:t Circle
-	>Circle :: Float -> Float -> Float -> Shape
+    >Circle :: Float -> Float -> Float -> Shape
 -}
 
 -- we can write a process for our new type Shape
@@ -19,8 +19,8 @@ area (Rectangle x1 y1 x2 y2) = (abs $ x2 - x1) * (abs $ y2 - y1)
 -- if the fields of a value-constructor is long, we can use record-syntax method
 data Person  = Person { firstName :: String
                       , lastName :: String
-			          , age :: Int
-			          , height :: Float
+                      , age :: Int
+                      , height :: Float
                       , phoneNumber :: String
-			          , flavor :: String
+                      , flavor :: String
                       } deriving (Show)
