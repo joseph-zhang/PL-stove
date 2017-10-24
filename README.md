@@ -6,5 +6,10 @@
 于是这里就成为了与种种FP相关的一个小小熔炉，且依然是分类进行的。所有的进行题标将会被列在下方的表里，与此Repo相关的一些理论内容也将会被放进来，虽然大概这对于Haskell等的见习来说并不是必需的。总而言之，能有机会尽情感受纯纯的FP还是非常令人畅快的。
 
 ## 分类列表
-###  表现层次-->expression 
+###  表现层次--> Expression 
 - Learn You a Haskell for Great Good! [Miran Lipovaca] 
+- Real World Haskell [Bryan O'Sullivan/John Goerzen/Don Stewart] 
+###  形式层次--> Form
+- 计算机科学中的范畴论 [陈意云]
+- Category Theory for Programmers [Bartosz Milewski]
+
