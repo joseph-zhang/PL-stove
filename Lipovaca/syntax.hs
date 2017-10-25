@@ -116,7 +116,7 @@ import <ModuleName> as <rename>
 	  ...
 	]
 -- simple form: write new module
-module <ModuleName> 
+module <moduleName> 
 ( <processname1>
 , <processname2>
 , <processname3>
