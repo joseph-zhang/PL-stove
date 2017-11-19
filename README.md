@@ -10,7 +10,9 @@
 - Learn You a Haskell for Great Good! [Miran Lipovaca] 
 - Real World Haskell [Bryan O'Sullivan/John Goerzen/Don Stewart] 
 - The Little Schemer 4th Edition [Daniel P. Friedman/Matthias Felleisen]
+---
 ###  形式层次--> Form
+
 - 计算机科学中的范畴论 [陈意云]
 - Category Theory for Programmers [Bartosz Milewski]
 
