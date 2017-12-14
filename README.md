@@ -7,6 +7,7 @@
 
 ## 分类列表
 ###  表现层次--> Expression 
+- Programming in Haskell [Graham Hutton]
 - Learn You a Haskell for Great Good! [Miran Lipovaca] 
 - Real World Haskell [Bryan O'Sullivan/John Goerzen/Don Stewart] 
 - The Little Schemer 4th Edition [Daniel P. Friedman/Matthias Felleisen]
