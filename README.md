@@ -20,3 +20,5 @@
 - Category Theory for Programmers [Bartosz Milewski]
 - Monads for functional programming [Philip Wadler]
 - The essence of functional programming [Philip Wadler]
+- Programming Languages and Lambda Calculi [Matthias Felleisen/Matthew Flatt]
+- Lambda-Calculus and Combinators::an Introduction [J. ROGER HINDLEY]
