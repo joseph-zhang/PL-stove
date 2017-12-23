@@ -13,6 +13,8 @@
 - The Little Schemer 4th Edition [Daniel P. Friedman/Matthias Felleisen]
 - How to Design Programs, Second Edition [Matthias Felleisen/Matthew Flatt ..]
 - Essentials of Programming Languages [Daniel P. Friedman/Mitchell Wand]
+- Programming Languages-Application and Interpretation [Shriram Krishnamurthi]
+- The Scheme Programming Language [R. Kent Dybvig]
 ---
 ###  形式层次--> Form
 
