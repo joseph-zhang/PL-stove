@@ -45,4 +45,4 @@
 (top stk1)
 (top (pop stk1))
 (top (pop (pop stk1)))
-(top (pop (pop (pop stk1)))) : top: the stack #(struct:empty-stack) is empty!
+(top (pop (pop (pop stk1)))) ; top: the stack #(struct:empty-stack) is empty!
