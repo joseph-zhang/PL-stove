@@ -15,6 +15,7 @@
 - Essentials of Programming Languages [Daniel P. Friedman/Mitchell Wand]
 - Programming Languages-Application and Interpretation [Shriram Krishnamurthi]
 - The Scheme Programming Language [R. Kent Dybvig]
+- C++ Template Metaprogramming [David Abrahams/Aleksey Gurtovoy]
 ---
 ###  形式层次--> Form
 
