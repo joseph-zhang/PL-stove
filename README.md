@@ -1,8 +1,6 @@
 # PL-stove
 **A collective stove for Programming language magic** <br>
 
-因为很多东西比较细碎，就将这里作为与种种FP/PL相关内容的一个小小熔炉，依然是分类进行的。所有的进行题标将会被列在下方的表里，与此Repo相关的一些理论内容也将会被放进来，虽然这对于见习来说并不是必需的。总而言之，能有机会感受FP还是非常令人畅快的。
-
 ## 分类列表
 ###  表现层次--> Expression 
 - Programming in Haskell [Graham Hutton]
