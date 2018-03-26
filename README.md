@@ -10,6 +10,7 @@
 - How to Design Programs, Second Edition [Matthias Felleisen/Matthew Flatt ..]
 - Essentials of Programming Languages [Daniel P. Friedman/Mitchell Wand]
 - Programming Languages-Application and Interpretation [Shriram Krishnamurthi]
+- Write Yourself a Scheme in 48 Hours [Wikibooks, orig:Jonathan Tang]
 - The Scheme Programming Language [R. Kent Dybvig]
 - The 90 minute Scheme to C compiler [Marc Feeley]
 - C++ Template Metaprogramming [David Abrahams/Aleksey Gurtovoy]
