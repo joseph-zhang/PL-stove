@@ -1,7 +1,6 @@
 # PL-stove
 **A collective stove for Programming language magic** <br>
 
-## 分类列表
 ###  表现层次--> Expression 
 - Programming in Haskell [Graham Hutton]
 - Learn You a Haskell for Great Good! [Miran Lipovaca] 
