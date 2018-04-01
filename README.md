@@ -16,7 +16,6 @@
 ---
 ###  Inner level
 
-- 计算机科学中的范畴论 [陈意云]
 - Category Theory for Programmers [Bartosz Milewski]
 - Monads for functional programming [Philip Wadler]
 - The essence of functional programming [Philip Wadler]
