@@ -5,6 +5,7 @@
 - Programming in Haskell [Graham Hutton]
 - Learn You a Haskell for Great Good! [Miran Lipovaca] 
 - Real World Haskell [Bryan O'Sullivan/John Goerzen/Don Stewart] 
+- Structure and Interpretation of Computer Programs [Gerald Jay Sussman/Harold Abelson]
 - The Little Schemer 4th Edition [Daniel P. Friedman/Matthias Felleisen]
 - How to Design Programs, Second Edition [Matthias Felleisen/Matthew Flatt ..]
 - Essentials of Programming Languages [Daniel P. Friedman/Mitchell Wand]
