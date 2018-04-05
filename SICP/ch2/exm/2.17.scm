@@ -1,0 +1,11 @@
+;get last element of list(naive method)
+(define (last-pair1 items)
+  (if (= 1 (length items)) (car items)
+    (last-pair1 (cdr items))))
+
+;get last element of list(more efficient)
+(define (last-pair items)
+  (define (last-iter subitems cnt)
+    (if (= 1 cnt)(car subitems)
+	  (last-iter (cdr subitems) (- cnt 1))))
+  (last-iter items (length items)))
