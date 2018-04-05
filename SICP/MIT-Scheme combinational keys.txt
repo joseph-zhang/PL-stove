@@ -1,0 +1,7 @@
+C-x z : 从Edwin退到交互状态，Edwin挂起。使用edit可以重新唤醒Edwin。
+C-x c : 停止Ediwn并回到交互态。
+C-x C-c : 停止Edwin和整个系统。
+(load <path of file>) : 装载文件。
+(cd <path>) : 切换工作目录。 
+(save-disk <filename>) : 保存现场到"filename"
+(disk-restore <filename>) : 从"filename"恢复现场
