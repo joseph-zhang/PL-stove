@@ -13,6 +13,8 @@
 - Write Yourself a Scheme in 48 Hours [Wikibooks, orig:Jonathan Tang]
 - Understanding Computation From Simple Machines to Impossible Programs [Tom Stuart]
 - The Scheme Programming Language [R. Kent Dybvig]
+- Metaprogramming Ruby [Paolo Perrotta]
+- The Haskell School of Music [Paul Hudak]
 - The 90 minute Scheme to C compiler [Marc Feeley]
 - C++ Template Metaprogramming [David Abrahams/Aleksey Gurtovoy]
 ---
