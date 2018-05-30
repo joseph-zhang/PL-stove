@@ -34,6 +34,7 @@ fn main() {
     }
 
     // try to insert Blue if it is not exist
+    // use entry() method to get a mutable reference of key-value pair
     scores.entry(String::from("Blue")).or_insert(50);
     {
         let score = match scores.get(&team_name){
