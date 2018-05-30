@@ -2,13 +2,14 @@
 // also as an example of closure
 use std::thread;
 use std::time::Duration;
-
+use std::collections::HashMap;
+use std::collections::hash_map::Entry;
 
 // 'Fn' trait is implemented in all closures
 struct Cacher<T>
 where T: Fn(u32) -> u32 {
     calculation: T,
-    val: Option<u32>,
+    val: HashMap<u32, u32>,
 }
 
 // add methods and associate functions for Cacher
@@ -17,20 +18,20 @@ where T: Fn(u32) -> u32 {
     fn new(calculation: T) -> Cacher<T> {
         Cacher {
             calculation,
-            val: None,
+            val: HashMap::new(),
         }
     }
     
     fn value(&mut self, arg: u32) -> u32 {
-        match self.val {
-            Some(v) => v,
-            None => {
-                let v = (self.calculation)(arg);
-                self.val = Some(v);
-                v
-            },   
+        match (self.val).entry(arg) {
+            Entry::Occupied(entry) => entry.into_mut().clone(),
+            Entry::Vacant(entry) => {
+                let newval = (self.calculation)(arg);
+                entry.insert(newval);
+                newval
+            },
         }
-    }   
+    }
 }
 
 fn generate_workout(intensity: u32, random_number: u32) {
