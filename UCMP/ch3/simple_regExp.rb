@@ -1,7 +1,7 @@
 #!usr/bin/env ruby
 # A simple Regular Expression engine
 # It supports three basic syntax: 'a|b', '(x)*' and Equal matching
-require_relative 'DFA_simulate'
+require_relative 'free_move'
 
 
 module Pattern
@@ -87,6 +87,13 @@ class Concatenate < Struct.new(:first, :second)
     accept_states = second_nfa_design.accept_states
 
     rules = first_nfa_design.rulebook.rules + second_nfa_design.rulebook.rules
+
+    # add free move between two stages
+    extra_rules = first_nfa_design.accept_states.map {|state|
+      FARule.new(state, nil, second_nfa_design.start_state)
+    }
+    rulebook = NFARulebook.new(rules + extra_rules)
+    NFADesign.new(start_state, accept_states, rulebook)
   end
 end
 
@@ -101,6 +108,21 @@ class Choose < Struct.new(:first, :second)
   def precedence
     0
   end
+
+  def to_nfa_design
+    first_nfa_design = first.to_nfa_design
+    second_nfa_design = second.to_nfa_design
+
+    start_state = Object.new
+    accept_states = first_nfa_design.accept_states + second_nfa_design.accept_states
+    rules = first_nfa_design.rulebook.rules + second_nfa_design.rulebook.rules
+    extra_rules = [first_nfa_design, second_nfa_design].map {|nfa_design|
+      FARule.new(start_state, nil, nfa_design.start_state)
+    }
+    rulebook = NFARulebook.new(rules + extra_rules)
+
+    NFADesign.new(start_state, accept_states, rulebook)
+  end
 end
 
 # type5: (x)* 
@@ -114,7 +136,22 @@ class Repeat < Struct.new(:pattern)
   def precedence
     2
   end
-end
 
+  def  to_nfa_design
+    # old NFA machine
+    pattern_nfa_design = pattern.to_nfa_design
+    # a new start state
+    start_state = Object.new
+    # all accept states, start state is also an accept state
+    accept_states = pattern_nfa_design.accept_states + [start_state]
 
-  
+    rules = pattern_nfa_design.rulebook.rules
+    # some extra rules: free move
+    extra_rules = pattern_nfa_design.accept_states.map {|state|
+      FARule.new(state, nil, pattern_nfa_design.start_state)
+    } + [FARule.new(start_state, nil, pattern_nfa_design.start_state)]
+
+    rulebook = NFARulebook.new(rules + extra_rules)
+    NFADesign.new(start_state, accept_states, rulebook)
+  end
+end 
