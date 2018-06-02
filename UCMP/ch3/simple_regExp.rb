@@ -77,6 +77,17 @@ class Concatenate < Struct.new(:first, :second)
   def precedence
     1
   end
+
+  # combine machines!!
+  def to_nfa_design
+    first_nfa_design = first.to_nfa_design
+    second_nfa_design = second.to_nfa_design
+
+    start_state = first_nfa_design.start_state
+    accept_states = second_nfa_design.accept_states
+
+    rules = first_nfa_design.rulebook.rules + second_nfa_design.rulebook.rules
+  end
 end
 
 # type4: (a|b)

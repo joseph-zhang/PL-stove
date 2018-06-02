@@ -1,7 +1,7 @@
 #!usr/bin/env ruby
 # free move method for multi-pattern
 
-require'./NFA_stimulate.rb'
+require'./NFA_simulate'
 
 # add new method for NFA class
 class NFARulebook
