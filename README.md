@@ -26,3 +26,4 @@
 - The essence of functional programming [Philip Wadler]
 - Programming Languages and Lambda Calculi [Matthias Felleisen/Matthew Flatt]
 - Lambda-Calculus and Combinators-An Introduction [J. Roger Hindley/Jonathan P. Seldin]
+- Computability and Complexity-From a Programming Perspective [Neil D. Jones]
