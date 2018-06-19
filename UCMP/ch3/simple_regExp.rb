@@ -2,7 +2,7 @@
 # A simple Regular Expression engine
 # It supports three basic syntax: 'a|b', '(x)*' and Equal matching
 require_relative 'free_move'
-
+require 'treetop'
 
 module Pattern
   def bracket(outer_precedence)
@@ -24,6 +24,7 @@ end
 
 # type1: an empty str
 class Empty
+  # mixin
   include Pattern
 
   def to_s
@@ -45,6 +46,7 @@ end
 
 # type2: only one character
 class Literal < Struct.new(:character)
+  # mixin
   include Pattern
 
   def to_s
@@ -68,6 +70,7 @@ end
 
 # type3: (ab)
 class Concatenate < Struct.new(:first, :second)
+  #mixin
   include Pattern
 
   def to_s
@@ -99,6 +102,7 @@ end
 
 # type4: (a|b)
 class Choose < Struct.new(:first, :second)
+  # mixin
   include Pattern
 
   def to_s
@@ -127,6 +131,7 @@ end
 
 # type5: (x)* 
 class Repeat < Struct.new(:pattern)
+  # mixin
   include Pattern
 
   def to_s
@@ -155,3 +160,15 @@ class Repeat < Struct.new(:pattern)
     NFADesign.new(start_state, accept_states, rulebook)
   end
 end 
+
+
+# ----------------------------------------------------- test code ----------------------------------------------
+if __FILE__ == $0
+  Treetop.load('regEXP')
+  parse_tree = PatternParser.new.parse('(a(|b))*')
+  puts parse_tree
+  pattern = parse_tree.to_ast
+  puts pattern
+  puts pattern.matches?('abaab')
+  puts pattern.matches?('abaac')
+end
