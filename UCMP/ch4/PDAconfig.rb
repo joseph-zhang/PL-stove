@@ -3,11 +3,19 @@
 require_relative 'stack'
 
 class PDAConfiguration < Struct.new(:state, :stack)
+  STUCK_STATE = Object.new()
+
+  def set_stuck
+    PDAConfiguration.new(STUCK_STATE, stack)
+  end
   
+  def stuck?
+    state == STUCK_STATE
+  end
 end
 
 class PDARule < Struct.new(:state, :character, :next_state,
-                       :pop_character, :push_chracters)
+                       :pop_character, :push_characters)
 
   def applies_to?(configuration, character)
     self.state == configuration.state &&
@@ -30,6 +38,8 @@ class PDARule < Struct.new(:state, :character, :next_state,
 end
 
 # --------------------------------------------------- test code ----------------------------------------------
-rule = PDARule.new(1, '(', 2, '$', ['b', '$'])
-configuration = PDAConfiguration.new(1, Stack.new(['$']))
-puts rule.applies_to?(configuration, '(')
+if __FILE__ == $0
+  rule = PDARule.new(1, '(', 2, '$', ['b', '$'])
+  configuration = PDAConfiguration.new(1, Stack.new(['$']))
+  puts rule.applies_to?(configuration, '(')
+end
