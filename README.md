@@ -18,6 +18,8 @@
 - The Haskell School of Music [Paul Hudak]
 - The 90 minute Scheme to C compiler [Marc Feeley]
 - C++ Template Metaprogramming [David Abrahams/Aleksey Gurtovoy]
+- A Little Java, A Few Patterns [Matthias Felleisen/Daniel P. Friedman]
+- The Little Prover [Daniel P. Friedman/Carl Eastlund]
 ---
 ###  Inner level
 
@@ -27,5 +29,4 @@
 - Programming Languages and Lambda Calculi [Matthias Felleisen/Matthew Flatt]
 - Lambda-Calculus and Combinators-An Introduction [J. Roger Hindley/Jonathan P. Seldin]
 - Computability and Complexity-From a Programming Perspective [Neil D. Jones]
-- A Little Java, A Few Patterns [Matthias Felleisen/Daniel P. Friedman]
-- The Little Prover [Daniel P. Friedman/Carl Eastlund]
+
