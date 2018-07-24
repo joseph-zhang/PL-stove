@@ -13,8 +13,8 @@
   (if (not (empty-queue? que)) (car (front-ptr que))
       (error "the queue is empty!" que)))
 
-(define (front-ptr que) (car que))
-(define (rear-ptr que) (cdr que))
+(define (front-ptr que) (car que)) ; ptr for head position 
+(define (rear-ptr que) (cdr que)) ; ptr for tail position
 
 (define (insert-queue! que x)
   (let ((new-pair (cons x '())))
