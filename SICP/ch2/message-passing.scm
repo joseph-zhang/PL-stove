@@ -1,5 +1,5 @@
 ; in the previous file, a kind of design method, data-oriended, was described
-; this file will show anpther method, a more interesting way
+; this file will show another method, a more interesting way
 ; before that, it is important to know about the selective method
 (define (apply-generic op . args)
   (let* ((type-tags (map type-tag args))
