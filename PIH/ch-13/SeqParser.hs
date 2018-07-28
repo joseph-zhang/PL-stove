@@ -1,4 +1,4 @@
-{- basic notions about parser-}
+{- basic notions about parser -}
 {-
 In general, a parser process an input string to get a tree structure (AST).
 However, some instances must be considered.
@@ -16,6 +16,11 @@ To lists of pairs
 Of things and strings
 "
 -}
+module SeqParser
+( parse
+, item
+, Parser(P)
+) where
 
 import Control.Applicative
 import Data.Char
