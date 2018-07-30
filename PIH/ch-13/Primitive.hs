@@ -18,6 +18,7 @@ module Primitive
 , identifier
 , natural
 , integer
+, symbol
 ) where
 
 import SeqParser
