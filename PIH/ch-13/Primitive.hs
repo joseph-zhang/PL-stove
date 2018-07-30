@@ -2,6 +2,24 @@
 Since the definition of parser is clear,
 there are some useful primitives should be implemented.
 -}
+module Primitive
+( sat
+, digit
+, lower
+, upper
+, alphanum
+, char
+, string
+, ident
+, nat
+, space
+, int
+, token
+, identifier
+, natural
+, integer
+) where
+
 import SeqParser
 import Control.Applicative
 import Data.Char
