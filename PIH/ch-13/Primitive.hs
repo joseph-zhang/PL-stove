@@ -103,3 +103,6 @@ natural = token nat
 
 integer :: Parser Int
 integer = token int
+
+symbol :: String -> Parser String 
+symbol xs = token (string xs)
