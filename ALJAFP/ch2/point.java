@@ -44,7 +44,7 @@ class ManhattanPt extends PointD{
 
 class Main{
     public static void main(String[] args){
-        PointD p1 = new ManhattanPt(2, 3);
+	PointD p1 = new ManhattanPt(2, 3);
 	PointD p2 = new CartesianPt(3, 4);
 	
 	System.out.println(p1);
