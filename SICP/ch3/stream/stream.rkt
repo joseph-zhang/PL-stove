@@ -1,3 +1,6 @@
+#lang racket
+(require (planet neil/sicp))
+
 ; This file show the basic idea of stream.
 ; Stream is a kind of structure, represented as a kind of sequence.
 ; This sequence is not the same as normal table, but a delayed table
