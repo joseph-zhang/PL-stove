@@ -1,5 +1,5 @@
 # PL-stove
-**A collective stove for Programming language magic** <br>
+**A tiny stove for Programming language magic** <br>
 
 ###  Presentation level
 - Programming in Haskell [Graham Hutton]
