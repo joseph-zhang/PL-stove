@@ -7,7 +7,7 @@
 - Real World Haskell [Bryan O'Sullivan/John Goerzen/Don Stewart] 
 - Structure and Interpretation of Computer Programs [Gerald Jay Sussman/Harold Abelson]
 - The Little Schemer 4th Edition [Daniel P. Friedman/Matthias Felleisen]
-- How to Design Programs, Second Edition [Matthias Felleisen/Matthew Flatt ..]
+- How to Design Programs, Second Edition [Matthias Felleisen/Matthew Flatt/ ..]
 - Essentials of Programming Languages [Daniel P. Friedman/Mitchell Wand]
 - Programming Languages-Application and Interpretation [Shriram Krishnamurthi]
 - Write Yourself a Scheme in 48 Hours [Wikibooks, orig:Jonathan Tang]
@@ -29,4 +29,4 @@
 - Programming Languages and Lambda Calculi [Matthias Felleisen/Matthew Flatt]
 - Lambda-Calculus and Combinators-An Introduction [J. Roger Hindley/Jonathan P. Seldin]
 - Computability and Complexity-From a Programming Perspective [Neil D. Jones]
-
+- Software Foundations [Benjamin C. Pierce/Arthur Azevedo de Amorim/ ..]
