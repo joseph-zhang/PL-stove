@@ -30,3 +30,4 @@
 - Lambda-Calculus and Combinators-An Introduction [J. Roger Hindley/Jonathan P. Seldin]
 - Computability and Complexity-From a Programming Perspective [Neil D. Jones]
 - Software Foundations [Benjamin C. Pierce/Arthur Azevedo de Amorim/ ..]
+- Static Program Analysis [Anders Møller/Michael I. Schwartzbach]
