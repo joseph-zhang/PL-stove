@@ -31,3 +31,4 @@
 - Computability and Complexity-From a Programming Perspective [Neil D. Jones]
 - Software Foundations [Benjamin C. Pierce/Arthur Azevedo de Amorim/ ..]
 - Static Program Analysis [Anders Møller/Michael I. Schwartzbach]
+- Harvard CS 152: Programming Languages [Stephen Chong]
