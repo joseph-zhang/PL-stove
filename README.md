@@ -32,3 +32,4 @@
 - Software Foundations [Benjamin C. Pierce/Arthur Azevedo de Amorim/ ..]
 - Static Program Analysis [Anders Møller/Michael I. Schwartzbach]
 - Harvard CS 152: Programming Languages [Stephen Chong]
+- Cornell CS 3110: Data Structures and Functional Programming [Nate Foster]
