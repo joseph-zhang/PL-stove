@@ -20,6 +20,7 @@
 - C++ Template Metaprogramming [David Abrahams/Aleksey Gurtovoy]
 - A Little Java, A Few Patterns [Matthias Felleisen/Daniel P. Friedman]
 - The Little Prover [Daniel P. Friedman/Carl Eastlund]
+- The Little Typer [Daniel P. Friedman/David Thrane Christiansen]
 ---
 ###  Inner level
 
