@@ -21,7 +21,7 @@
 - A Little Java, A Few Patterns [Matthias Felleisen / Daniel P. Friedman]
 - The Little Prover [Daniel P. Friedman / Carl Eastlund]
 - The Little Typer [Daniel P. Friedman / David Thrane Christiansen]
-- Real World OCaml [Jason Hickey / Anil Madhavapeddy / Yaron Minsky]
+- Real World OCaml 2nd [Jason Hickey / Anil Madhavapeddy / Yaron Minsky]
 ---
 ###  Inner level
 
