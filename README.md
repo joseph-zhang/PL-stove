@@ -3,7 +3,8 @@
 
 ###  Presentation level
 - Programming in Haskell [Graham Hutton]
-- Learn You a Haskell for Great Good! [Miran Lipovaca] 
+- Learn You a Haskell for Great Good! [Miran Lipovaca]
+- Learn You an Agda and Achieve Enlightenment! [Liamoc]
 - Real World Haskell [Bryan O'Sullivan / John Goerzen / Don Stewart] 
 - Structure and Interpretation of Computer Programs [Gerald Jay Sussman / Harold Abelson]
 - The Little Schemer 4th Edition [Daniel P. Friedman / Matthias Felleisen]
