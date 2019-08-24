@@ -27,6 +27,7 @@
 ###  Inner level
 
 - Category Theory for Programmers [Bartosz Milewski]
+- Programming Language Foundations in Agda [Philip Wadler / Wen Kokke]
 - Monads for functional programming [Philip Wadler]
 - The essence of functional programming [Philip Wadler]
 - Programming Languages and Lambda Calculi [Matthias Felleisen / Matthew Flatt]
