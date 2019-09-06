@@ -3,6 +3,7 @@
 
 ###  Presentation level
 - Programming in Haskell [Graham Hutton]
+- Haskell Programming from first principles [Christopher Allen / Julie Moronuki]
 - Learn You a Haskell for Great Good! [Miran Lipovaca]
 - Learn You an Agda and Achieve Enlightenment! [Liamoc]
 - Real World Haskell [Bryan O'Sullivan / John Goerzen / Don Stewart] 
